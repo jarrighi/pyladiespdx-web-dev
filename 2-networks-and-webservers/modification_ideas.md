@@ -1,7 +1,7 @@
 ## Ideas to modify echo_server.py
 
 * Send back the length of the request instead of the request itself
-* Send back a default respone message
+* Send back a default response message
 * Send back the time of day
 * Send back the host name or IP
 

@@ -45,7 +45,7 @@ def echo_server(port):
 
       # Send the chunk of data back to the client
       client.send(data)
-      print "sent %s bytes back to %s" % (data, address)
+      print "sent %s bytes back to %s" % (len(data), address)
 
       # Close the connection with the client
       client.close()
