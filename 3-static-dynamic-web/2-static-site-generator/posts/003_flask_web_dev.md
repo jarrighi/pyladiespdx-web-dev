@@ -1,0 +1,14 @@
+# Let's make a web app with Flask
+
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+  return "Hello!\n"
+
+if __name__ == "__main__":
+  app.run()
+```
